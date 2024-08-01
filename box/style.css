@@ -1,0 +1,48 @@
+.container{
+    display: inline grid;
+    background-color: navy;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    gap: 20px 20px;
+}
+.one{
+    background-color: green;
+    border: 1px solid black;
+}
+.two{
+    background-color:green ;
+    border: 1px solid black;
+}
+.three{
+    background-color:red ;
+    border: 1px solid black;
+}
+.four{
+    background-color: orange;
+    border: 1px solid black;
+}
+.five{
+    background-color:red ;
+    border: 1px solid black;
+}
+.six{
+    background-color:green ;
+    border: 1px solid black;
+}
+.seven{
+    background-color:red ;
+    border: 1px solid black;
+}
+.eight{
+    background-color: orange;
+    border: 1px solid black;
+}
+.t{
+    grid-column: span 2;
+}
+.th{
+    grid-row:span 3 ;
+}
+.tt{
+    grid-row: span 2;
+}
